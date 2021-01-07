@@ -1,0 +1,18 @@
+#include<stdio.h> //write a program to that performs as calculator.
+#include<conio.h> //addition,subtraction,multiplication,division.
+void main()
+{
+	long int a,b,add,sub,mul,div;
+	clrscr();
+	printf("Enter a and b:");
+	scanf("\n%ld%ld",&a,&b);
+	add=a+b;//20+10=30
+	sub=a-b;//20-10=10
+	mul=a*b;//20*10=200
+	div=a/b;//20/10=2
+	printf("\n->The addition of a and b is:%ld\n",add);
+	printf("\n->The subtraction of a and b is:%ld\n",sub);
+	printf("\n->The multiplication of a and b is:%ld\n",mul);
+	printf("\n->The division of a and b is:%ld\n",div);
+	getch();
+}
